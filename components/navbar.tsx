@@ -45,7 +45,7 @@ export function Navbar() {
         </div>
 
         <div className="hidden items-center gap-4 md:flex">
-          <Button size="sm">Descargar Agente ByteCare</Button>
+          <Button size="sm">Descargar Agente para Clientes ByteCare</Button>
         </div>
 
         {/* Mobile Menu Button */}
@@ -93,7 +93,7 @@ export function Navbar() {
             </Link>
             <div className="pt-4">
               <Button size="sm" className="w-full">
-                Descargar Agente ByteCare
+                Descargar Agente para Clientes ByteCare
               </Button>
             </div>
           </div>
