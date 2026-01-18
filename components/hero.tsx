@@ -15,40 +15,45 @@ export function Hero() {
         <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-border bg-secondary/50 px-4 py-2">
           <Shield className="h-4 w-4 text-primary" />
           <span className="text-sm font-medium text-foreground/90">
-            Supervisión continua con inteligencia artificial
+            Supervisión continua 24/7 con inteligencia artificial
           </span>
         </div>
 
         {/* Main Heading */}
         <h1 className="mb-6 max-w-4xl text-balance text-4xl font-bold tracking-tight text-foreground md:text-5xl lg:text-6xl">
-          ByteCare – Ciberseguridad y Monitoreo Inteligente
+          ByteCare – Protección Digital Profesional con Monitoreo Inteligente
         </h1>
 
         {/* Subtitle */}
         <p className="mb-10 max-w-2xl text-pretty text-lg text-muted-foreground md:text-xl">
-          Supervisión continua 24 horas al día, 7 días a la semana mediante agentes 
-          de inteligencia artificial para prevenir ataques, fallas y pérdida de datos.
+          Nuestra plataforma supervisa sus sistemas 24 horas al día, 7 días a la semana mediante 
+          agentes de inteligencia artificial para detectar amenazas, prevenir fallas y proteger su información antes de que ocurran incidentes.
         </p>
 
         {/* CTA Button */}
         <Button size="lg" className="gap-2">
           <Download className="h-4 w-4" />
-          Descargar Agente ByteCare
+          Descargar Agente para Clientes ByteCare
         </Button>
+
+        {/* Disclaimer under button */}
+        <p className="mt-3 text-sm text-muted-foreground">
+          Disponible exclusivamente para clientes con contrato activo de ByteCare.
+        </p>
 
         {/* Trust indicators */}
         <div className="mt-16 flex flex-wrap items-center justify-center gap-8 text-muted-foreground">
           <div className="flex items-center gap-2">
             <div className="h-2 w-2 rounded-full bg-green-500" />
-            <span className="text-sm">Supervisión continua con IA</span>
+            <span className="text-sm">Supervisión continua 24/7 con IA</span>
           </div>
           <div className="flex items-center gap-2">
             <div className="h-2 w-2 rounded-full bg-green-500" />
-            <span className="text-sm">Atención en español</span>
+            <span className="text-sm">Soporte técnico profesional en español</span>
           </div>
           <div className="flex items-center gap-2">
             <div className="h-2 w-2 rounded-full bg-green-500" />
-            <span className="text-sm">Planes profesionales personalizados</span>
+            <span className="text-sm">Servicio gestionado bajo contrato profesional</span>
           </div>
         </div>
       </div>
