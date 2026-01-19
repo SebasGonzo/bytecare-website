@@ -13,7 +13,7 @@ export function Navbar() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <Link href="/" className="flex items-center gap-2">
           <Shield className="h-8 w-8 text-primary" />
-          <span className="text-xl font-bold text-foreground">ByteCare</span>
+          <span className="text-xl font-bold text-foreground">ByteCare</span> 
         </Link>
 
         {/* Desktop Navigation */}
