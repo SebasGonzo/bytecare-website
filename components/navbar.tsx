@@ -18,6 +18,7 @@ export function Navbar() {
 
         {/* Desktop Navigation */}
         <div className="hidden items-center gap-8 md:flex">
+          
           <Link
             href="#que-es"
             className="text-sm text-muted-foreground transition-colors hover:text-foreground"
